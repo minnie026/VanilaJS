@@ -1,0 +1,96 @@
+.bookmark-main{
+    background-color: rgba(255,255,255,0.3);
+    width: 100%;
+    height: 30px;
+}
+
+.bookmark-main ul{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4px;
+    
+    
+}
+
+.bookmark-main ul li{
+    margin-right: 20px;
+    list-style: none;
+    font-size: 10px;
+    margin-top: 3px;
+
+
+}
+.bookmark-main ul li:hover{
+    background-color: rgb(214, 214, 214);
+    cursor: pointer;
+
+
+}
+.bookmark-main ul li span{
+    vertical-align: top;
+}
+
+.bookmark-main ul li img{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.bookmark-main ul li span a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.setting-popup{
+    background-color: rgb(241, 241, 241);
+    border-radius: 15px;
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    border: 1px solid rgb(154, 181, 212);
+
+}
+
+.add-new{
+    position: relative;
+}
+
+#bookmark{
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+#input-box{
+    width: 100px;
+    margin-bottom: 10px;
+    border: none;
+}
+#address{
+    width: 100px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+
+#set-btn{
+    border: 1px solid grey;
+    border-radius: 5px;
+
+    outline: none;
+}
+
+#set-btn:hover{
+    background-color: #cacaca;
+    cursor: pointer;
+}
+
+.hide{
+    display: none;
+}
+
+.linkstyle{
+    text-decoration: none;
+    color: black;
+    vertical-align: top;
+}

@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Gaegu&family=Jua&family=Nanum+Pen+Script&family=Roboto:wght@300&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+:root{
+    --main-width: 250px;
+    --main-height: 230px;
+}
+
+.workout-box{
+    width: var( --main-width);
+    height: var(--main-height);
+    background-color:  rgb(248, 248, 248);
+    background-color:rgba(255,255,255,0.5);
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-radius: 15px;
+}   
+
+.workout-header{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.workout-header span{
+    font-size: 15px;
+}
+
+
+.workout-circle-main{
+    flex: 4;
+    text-align: center;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#workout-downn,
+#workout-up{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid rgb(143, 143, 143);        
+}
+
+
+
+#workout-down:hover,
+#workout-up:hover{
+    background-color: rgb(221, 221, 221);
+}
+
+
+
+.workout-footer{
+    flex: 2;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.workout-goal-circle{
+    position: relative;
+    width : 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-image: conic-gradient(rgb(248, 157, 157) 0 0, rgb(235, 235, 235) 0 100%);
+    
+}
+
+.workout-goal-circle:before{
+    content:"";
+    position: absolute;
+    background-color: rgb(248, 248, 248);
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+   
+}
+
+.workoutcurrvalue{
+    position: absolute;
+    z-index: 1;
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgb(90, 90, 90);
+
+ 
+    
+}
+
+    
+.workout-footer div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+
+
+.workout-footer div:nth-child(1),
+.workout-footer div:nth-child(2){
+    border-right: 1px dashed rgb(165, 165, 165);
+    padding-right: 15px;
+}
+
+.workout-header img{
+    width: 18px;
+    height: 18px;
+
+}
+.workout-header img:hover{
+    cursor: pointer;    
+}
+
+
+
+.workout-banner{
+    width: var( --main-width);
+    height: var(--main-height);
+    background-color:  rgb(200, 200, 200);
+    box-sizing: border-box;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.workout-inner{
+    background-color: rgba(255, 255, 255, 0.972);
+    border-radius: 10px;
+    height: 111px;
+    z-index: 2;
+    position: absolute;
+    top: 83%;
+    width: var( --main-width);
+}
+
+
+.workout-inner:hover{
+    transform:translateY(-70px);
+    transition: all 0.7s ease-in;
+    overflow: hidden;
+}
+
+.workout-banner img{
+    width: var( --main-width);
+    height: var(--main-height);
+    z-index: 1;
+    border-radius: 15px;
+}
+
+.workout-content{
+    padding: 15px;
+}
+
+.workout-content .goal-inner{
+    font-size: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color:rgb(90, 90, 90)
+}
+
+
+.workout-content button{
+    float: right;
+    border-radius: 15px;
+    border: none;
+    padding: 5px 10px;
+    font-size: 12px;
+    background-color: #2373ff;
+    color: white;
+    
+}
+
+.workout-content button:hover{
+    background-color: #005cfa;
+    cursor: pointer;
+}
+
+.workout-content div{
+    font-weight: bold;
+}
+
+.hide{
+    display: none;
+}
+
+
+.workout-setting-main{
+    width: var( --main-width);
+    height: var(--main-height);
+    background-color:  rgb(233, 233, 233);
+    border-radius: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+
+.workout-setting-main input{
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.workout-setting-main span{
+    display: block;
+    font-size: 15px;
+    color: grey;
+}
+
+.setting-workout{
+    font-size: bolder;
+    color: black;
+    font-size: 19px;
+}
+
+#workout-submit{
+    float: right;
+    border-radius: 15px;
+    border: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #2373ff;
+    color: white;
+}
+
+#workout-submit:hover{
+    background-color: #005cfa;
+    cursor: pointer;
+}
+
+.hide{
+    display: none;
+}

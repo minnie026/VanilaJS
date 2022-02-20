@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@700&family=Nanum+Pen+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+html,body{
+    width: 100%;
+    height: 100vh;
+    /* background-color: rgb(80, 80, 80); */
+    /* background-image: linear-gradient( 174.2deg,  rgba(255,244,228,1) 7.1%, rgba(240,246,238,1) 67.4% ); */
+}
+
+
+.main-main-container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient( 44.8deg,  rgba(255,136,102,0.67) -53.1%, rgba(255,221,136,0.28) 49% );
+    background-image: linear-gradient( 109.6deg,  rgba(247,202,201,1) 20.6%, rgba(146,168,209,1) 85.9% );
+    
+    font-family: 'Gaegu', cursive;
+}
+
+.login-main-box{
+width: 100%;
+height: 80%;
+position: relative;
+padding-left: 300px;
+text-align: center;
+}
+
+.outer{
+width: 800px;
+height: 600px;
+padding: 100px ;
+text-align: center;
+}
+
+.outer .txt-content{
+width: 900px; 
+height: 500px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+
+
+.user-input-container {
+text-align: center;
+width: 500px;
+height: 300px;
+top: 70%;
+left: 45%;
+transform: translate(-40%,-40%);
+position: absolute;
+z-index: 1;
+opacity: 0;
+}
+
+.user-input-container form input{
+display: inline-block;
+width: 350px;
+height: 70px;
+font-family: 'Gaegu', cursive;
+font-size: 1.3rem;
+border: none;
+border-bottom: 3px solid #8675A9;
+background: none;
+box-sizing: border-box;
+padding: 5px 10px;
+outline: none;
+transition: all 3s;
+color: rgb(70, 70, 70);
+}
+
+.hide-login-name{
+visibility: visible;
+opacity: 1;
+transition: opacity 1300ms;
+
+
+}
+
+
+.banner div h2 {
+color: #8675A9;
+font-size: 8em;
+display: inline;
+
+}
+
+.banner div .cursor {
+color: #8675A9;
+font-size: 5em;
+opacity: 1;
+}
+

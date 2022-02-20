@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Gaegu&family=Jua&family=Nanum+Pen+Script&display=swap');
+.card{
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+
+
+}
+
+.hide{
+    display: none;
+}
+
+.progress-container{
+    width: 250px;
+    height: 250px;
+    margin-left: 30px;
+}
+
+
+.noday-inner{
+    flex: 2;
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    padding: 35px;
+    text-align: center;
+    background-color: #ffecc1;
+    background-color: rgba(255,255,255,0.5);
+    box-sizing: border-box;
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.noday-inner div:first-child{
+    color: rgb(54, 54, 54);
+    font-weight: bolder;
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+    margin-top: 15px;
+
+}
+
+.noday-inner div:last-child{
+    color: rgb(68, 68, 68);
+    font-size: 13px;
+ 
+}
+
+
+.noday-btn{
+    display: flex;
+    flex: 1;
+    width: 150px;
+    height: 30px;
+    margin: 0 auto;
+    padding: 5px 15px;
+    margin-top: -100px;
+    
+}
+
+.noday-btn button{
+    border-radius: 15px;
+    border: none;
+    margin: 0 auto;
+    padding: 5px 10px;
+    background-color:rgba(172, 168, 251, 0.239);
+    
+
+
+}
+
+.noday-btn button:hover{
+    background-color: rgba(172, 168, 251, 0.568);
+    color: white;
+    cursor:pointer;
+
+
+}
+
+
+
+.progress-setting-main{
+    width: 230px;
+    height: 250px;
+    padding: 10px;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 15px;
+}
+
+
+.setting{
+    margin: 20px 0;
+ 
+}
+
+.setting-content{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+
+    
+}
+
+
+.setting-content input:first-child{
+    border-radius: 10px;
+    border: none;
+    height: 30px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    
+}
+
+.setting-content input:first-child:focus{
+    border: 2px solid rgba(172, 168, 251, 0.568);
+    outline: none;
+    margin-bottom: 15px;
+
+}
+
+.setting-content #dday-date{
+    border-radius: 10px;
+    height: 30px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+
+}
+
+.setting-content #dday-date:focus{
+    background-color: rgba(172, 168, 251, 0.568);
+ 
+    
+}
+
+#progress-set-btn{
+    border-radius: 15px;
+    border: none;
+    width: 80px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color:rgba(172, 168, 251, 0.239);
+    font-family: 'Jua', sans-serif;
+    outline: none;
+}
+
+#progress-set-btn:hover{
+    background-color: rgba(172, 168, 251, 0.568);
+}
+
+
+
+.set-btn-container{
+    text-align: end;
+}
+
+.done-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255,255,255,0.5);
+
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.done-main svg{
+    width: 60px;
+    height: 60px;
+    padding-top: 60px;
+    margin-bottom: 15px;;
+    
+}
+
+.done-main div{
+    margin-bottom: 15px;
+}
+
+.done-main button{
+    border-radius: 15px;
+    border: none;
+    width: 80px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color:rgba(172, 168, 251, 0.239);
+    font-family: 'Jua', sans-serif;
+}
+
+.done-main button:hover{
+    background-color: rgba(172, 168, 251, 0.568);
+}
+
+.show-main svg{
+    width: 20px;
+    height: 20px;
+
+}
+
+/* 디데이 보여주는 메인페이지 */
+
+
+.progress-bar{
+    width: 30%;
+    height: 5px;
+    background-image: linear-gradient( 64.3deg,  rgba(254,122,152,0.81) 17.7%, rgba(255,206,134,1) 64.7%, rgba(172,253,163,0.64) 112.1% );
+    border-radius: 10px;
+
+}
+.progress-wrapper{
+    width: 100%;
+    height: 5px;
+    background-color: white;
+    border-radius: 10px;
+}
+.main-header{
+    display: flex;
+   flex-direction: row;
+    justify-content: space-between;
+   padding: 20px 15px 10px 15px;
+   color: grey;
+   font-size: 13px;
+   
+}
+
+.main-header svg:hover{
+    cursor: pointer;
+}
+
+#showname{
+    color:rgb(54, 54, 54);
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+.content-footer{
+    display: flex;
+    justify-content: end;
+
+}
+
+.content-footer button{
+    margin-right: 10px;
+    border-radius: 10px;
+    padding: 3px 10px;
+    border: none;
+    background-color:rgba(172, 168, 251, 0.144);
+    color: rgb(139, 123, 226);
+
+}
+.progress-content-box{
+    
+    padding: 0 10px;
+
+
+}
+
+.progress-percent   {
+    margin-left: 80%;
+}
+
+.havedday{
+    background-color: rgba(255,255,255,0.5);
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+}
